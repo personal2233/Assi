@@ -1,0 +1,8 @@
+header{
+   display: flex;
+   background-color: antiquewhite;
+   
+}
+header ul li{
+    display: flex;
+}
