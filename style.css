@@ -1,8 +1,62 @@
-header{
-   display: flex;
-   background-color: antiquewhite;
-   
+/* header section h & list flex holo */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-inline: 10px;
 }
-header ul li{
+/* list flex holo */
+nav ul{
     display: flex;
 }
+/* remove list dot, distance */
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+/* remove under line */
+nav li a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: bisque;
+    font-weight: bold;
+    padding: auto;
+    border-radius: 10px;
+}
+/* second section */
+.hero{
+   background-image: url(../Assi/assets/Hero-bg.png);
+   margin-top: 50px;
+      
+}
+.hero-cemter-content{
+    text-align: center;
+}
+
+.group img{
+    display: block;
+    margin: auto;
+}
+/* skill section */
+.skill{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.skill-header{
+    text-align: center;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-inline: 30px;
+}
+.a1{
+    padding: 20px;
+}
+
+
