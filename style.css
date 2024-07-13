@@ -59,4 +59,66 @@ nav li a{
     padding: 20px;
 }
 
+.my-inspiration{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.my-current-target{
+    text-align: center;
+}
+.my-target{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 
+.my-card{
+    display: flex;
+    padding: 20px;
+}
+.html-card{
+    padding: 10px;
+    background-color: rgb(238, 204, 156);
+    
+}
+.css-card{
+    padding: 10px;
+    background-color:blanchedalmond
+    
+}
+.js-card{
+    padding: 10px;
+    background-color:aquamarine
+}
+.horizontal-card{
+
+}
+.comon-hori-card{
+    display: flex;
+    justify-content:space-between;
+    padding: 40px;
+    margin: auto;
+    border:solid;
+}
+.h-c-img{
+    width: 94.78px;
+    height: 108px;
+}
+.h-c-contnt{
+    width: 941.22px;
+    height: 140px;
+}
+.supoort{
+    background-image: url(assets/handshake.png);
+    text-align: center;
+    margin-top: 50px;
+    height: 186px;
+    width: 1044px;
+    padding: 30px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
